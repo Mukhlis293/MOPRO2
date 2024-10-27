@@ -31,7 +31,7 @@ class _HalamanLoginState extends State<HalamanLogin> {
     String password = _passwordController.text;
 
     // Simple static check for username and password
-    if (email == 'mukhlis@gmail.com' && password == '123456') {
+    if (email == 'mukhlis' && password == '123456') {
       Navigator.push(
         context,
         CupertinoPageRoute(
